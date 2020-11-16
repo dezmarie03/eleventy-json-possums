@@ -1,0 +1,199 @@
+Eleventy:UserConfig Resetting EleventyConfig to initial values. +0ms
+  Eleventy:Config Setting up global TemplateConfig. +0ms
+  Eleventy:UserConfig Adding universal filter 'slug' +4ms
+  Eleventy:UserConfig Adding universal filter 'url' +0ms
+  Eleventy:UserConfig Adding universal filter 'log' +1ms
+  Eleventy:UserConfig Adding universal filter 'getCollectionItem' +0ms
+  Eleventy:UserConfig Adding universal filter 'getPreviousCollectionItem' +0ms
+  Eleventy:UserConfig Adding universal filter 'getNextCollectionItem' +0ms
+  Eleventy:TemplateConfig rootConfig { templateFormats: [ 'liquid',   'ejs', 'md',       'hbs', 'mustache', 'haml', 'pug',      'njk', 'html',     'jstl', '11ty.js' ], pathPrefix: '/', markdownTemplateEngine: 'liquid', htmlTemplateEngine: 'liquid', dataTemplateEngine: 'liquid', passthroughFileCopy: true, htmlOutputSuffix: '-o', jsDataFileSuffix: '.11tydata', keys: { package: 'pkg', layout: 'layout', permalink: 'permalink', permalinkRoot: 'permalinkBypassOutputDir', engineOverride: 'templateEngineOverride', computed: 'eleventyComputed' }, dir: { input: '.', includes: '_includes', data: '_data', output: '_site' }, filters: {}, handlebarsHelpers: {}, nunjucksFilters: {} } +0ms
+  Eleventy:TemplateConfig Merging config with /Users/desiraebeberniss/Documents/GitHub/eleventy-json-possums/.eleventy.js +3ms
+  Eleventy:TemplateConfig Eleventy local project config file not found, skipping. +0ms
+  Eleventy:TemplateConfig localConfig: { templateFormats: undefined, filters: {}, linters: {}, layoutAliases: {}, passthroughCopies: {}, liquidOptions: {}, liquidTags: {}, liquidFilters: { slug: [Function (anonymous)], url: [Function (anonymous)], log: [Function (anonymous)], getCollectionItem: [Function (anonymous)], getPreviousCollectionItem: [Function (anonymous)], getNextCollectionItem: [Function (anonymous)] }, liquidShortcodes: {}, liquidPairedShortcodes: {}, nunjucksFilters: { slug: [Function (anonymous)], url: [Function (anonymous)], log: [Function (anonymous)], getCollectionItem: [Function (anonymous)], getPreviousCollectionItem: [Function (anonymous)], getNextCollectionItem: [Function (anonymous)] }, nunjucksAsyncFilters: {}, nunjucksTags: {}, nunjucksAsyncShortcodes: {}, nunjucksShortcodes: {}, nunjucksAsyncPairedShortcodes: {}, nunjucksPairedShortcodes: {}, handlebarsHelpers: { slug: [Function (anonymous)], url: [Function (anonymous)], log: [Function (anonymous)], getCollectionItem: [Function (anonymous)], getPreviousCollectionItem: [Function (anonymous)], getNextCollectionItem: [Function (anonymous)] }, handlebarsShortcodes: {}, handlebarsPairedShortcodes: {}, javascriptFunctions: { slug: [Function (anonymous)], url: [Function (anonymous)], log: [Function (anonymous)], getCollectionItem: [Function (anonymous)], getPreviousCollectionItem: [Function (anonymous)], getNextCollectionItem: [Function (anonymous)] }, pugOptions: {}, ejsOptions: {}, markdownHighlighter: null, libraryOverrides: {}, dynamicPermalinks: true, useGitIgnore: true, dataDeepMerge: false, watchJavaScriptDependencies: true, additionalWatchTargets: [], browserSyncConfig: {}, chokidarConfig: {}, watchThrottleWaitTime: 0, frontMatterParsingOptions: undefined, dataExtensions: Map(0) {}, extensionMap: Set(0) {}, quietMode: false, events: EventEmitter { _events: [Object: null prototype] {}, _eventsCount: 0, _maxListeners: undefined, [Symbol(kCapture)]: false } } +1ms
+  Eleventy:TemplateConfig overrides: {} +3ms
+  Eleventy:TemplateConfig Current configuration: { templateFormats: [ 'liquid',   'ejs', 'md',       'hbs', 'mustache', 'haml', 'pug',      'njk', 'html',     'jstl', '11ty.js' ], pathPrefix: '/', markdownTemplateEngine: 'liquid', htmlTemplateEngine: 'liquid', dataTemplateEngine: 'liquid', passthroughFileCopy: true, htmlOutputSuffix: '-o', jsDataFileSuffix: '.11tydata', keys: { package: 'pkg', layout: 'layout', permalink: 'permalink', permalinkRoot: 'permalinkBypassOutputDir', engineOverride: 'templateEngineOverride', computed: 'eleventyComputed' }, dir: { input: '.', includes: '_includes', data: '_data', output: '_site' }, filters: {}, handlebarsHelpers: { slug: [Function (anonymous)], url: [Function (anonymous)], log: [Function (anonymous)], getCollectionItem: [Function (anonymous)], getPreviousCollectionItem: [Function (anonymous)], getNextCollectionItem: [Function (anonymous)] }, nunjucksFilters: { slug: [Function (anonymous)], url: [Function (anonymous)], log: [Function (anonymous)], getCollectionItem: [Function (anonymous)], getPreviousCollectionItem: [Function (anonymous)], getNextCollectionItem: [Function (anonymous)] }, linters: {}, layoutAliases: {}, passthroughCopies: {}, liquidOptions: {}, liquidTags: {}, liquidFilters: { slug: [Function (anonymous)], url: [Function (anonymous)], log: [Function (anonymous)], getCollectionItem: [Function (anonymous)], getPreviousCollectionItem: [Function (anonymous)], getNextCollectionItem: [Function (anonymous)] }, liquidShortcodes: {}, liquidPairedShortcodes: {}, nunjucksAsyncFilters: {}, nunjucksTags: {}, nunjucksAsyncShortcodes: {}, nunjucksShortcodes: {}, nunjucksAsyncPairedShortcodes: {}, nunjucksPairedShortcodes: {}, handlebarsShortcodes: {}, handlebarsPairedShortcodes: {}, javascriptFunctions: { slug: [Function (anonymous)], url: [Function (anonymous)], log: [Function (anonymous)], getCollectionItem: [Function (anonymous)], getPreviousCollectionItem: [Function (anonymous)], getNextCollectionItem: [Function (anonymous)] }, pugOptions: {}, ejsOptions: {}, markdownHighlighter: null, libraryOverrides: {}, dynamicPermalinks: true, useGitIgnore: true, dataDeepMerge: false, watchJavaScriptDependencies: true, additionalWatchTargets: [], browserSyncConfig: {}, chokidarConfig: {}, watchThrottleWaitTime: 0, frontMatterParsingOptions: undefined, dataExtensions: Map(0) {}, extensionMap: Set(0) {}, quietMode: false, events: EventEmitter { _events: [Object: null prototype] {}, _eventsCount: 0, _maxListeners: undefined, [Symbol(kCapture)]: false } } +0ms
+  Eleventy:CommandCheck command: eleventy   +0ms
+  Eleventy Eleventy warm up time (in ms) 241.14698791503906 +0ms
+  Eleventy:TemplatePassthroughManager Resetting counts to 0 +0ms
+  Eleventy:EleventyFiles /Users/desiraebeberniss/Documents/GitHub/eleventy-json-possums/.gitignore ignoring: !./logs +0ms
+  Eleventy:EleventyFiles /Users/desiraebeberniss/Documents/GitHub/eleventy-json-possums/.gitignore ignoring: !./*.log +0ms
+  Eleventy:EleventyFiles /Users/desiraebeberniss/Documents/GitHub/eleventy-json-possums/.gitignore ignoring: !./npm-debug.log* +0ms
+  Eleventy:EleventyFiles /Users/desiraebeberniss/Documents/GitHub/eleventy-json-possums/.gitignore ignoring: !./yarn-debug.log* +0ms
+  Eleventy:EleventyFiles /Users/desiraebeberniss/Documents/GitHub/eleventy-json-possums/.gitignore ignoring: !./yarn-error.log* +0ms
+  Eleventy:EleventyFiles /Users/desiraebeberniss/Documents/GitHub/eleventy-json-possums/.gitignore ignoring: !./lerna-debug.log* +0ms
+  Eleventy:EleventyFiles /Users/desiraebeberniss/Documents/GitHub/eleventy-json-possums/.gitignore ignoring: !./report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json +0ms
+  Eleventy:EleventyFiles /Users/desiraebeberniss/Documents/GitHub/eleventy-json-possums/.gitignore ignoring: !./pids +0ms
+  Eleventy:EleventyFiles /Users/desiraebeberniss/Documents/GitHub/eleventy-json-possums/.gitignore ignoring: !./*.pid +1ms
+  Eleventy:EleventyFiles /Users/desiraebeberniss/Documents/GitHub/eleventy-json-possums/.gitignore ignoring: !./*.seed +0ms
+  Eleventy:EleventyFiles /Users/desiraebeberniss/Documents/GitHub/eleventy-json-possums/.gitignore ignoring: !./*.pid.lock +0ms
+  Eleventy:EleventyFiles /Users/desiraebeberniss/Documents/GitHub/eleventy-json-possums/.gitignore ignoring: !./lib-cov +0ms
+  Eleventy:EleventyFiles /Users/desiraebeberniss/Documents/GitHub/eleventy-json-possums/.gitignore ignoring: !./coverage +0ms
+  Eleventy:EleventyFiles /Users/desiraebeberniss/Documents/GitHub/eleventy-json-possums/.gitignore ignoring: !./*.lcov +0ms
+  Eleventy:EleventyFiles /Users/desiraebeberniss/Documents/GitHub/eleventy-json-possums/.gitignore ignoring: !./.nyc_output +0ms
+  Eleventy:EleventyFiles /Users/desiraebeberniss/Documents/GitHub/eleventy-json-possums/.gitignore ignoring: !./.grunt +0ms
+  Eleventy:EleventyFiles /Users/desiraebeberniss/Documents/GitHub/eleventy-json-possums/.gitignore ignoring: !./bower_components +0ms
+  Eleventy:EleventyFiles /Users/desiraebeberniss/Documents/GitHub/eleventy-json-possums/.gitignore ignoring: !./.lock-wscript +0ms
+  Eleventy:EleventyFiles /Users/desiraebeberniss/Documents/GitHub/eleventy-json-possums/.gitignore ignoring: !./build/Release +0ms
+  Eleventy:EleventyFiles /Users/desiraebeberniss/Documents/GitHub/eleventy-json-possums/.gitignore ignoring: !./node_modules/** +0ms
+  Eleventy:EleventyFiles /Users/desiraebeberniss/Documents/GitHub/eleventy-json-possums/.gitignore ignoring: !./jspm_packages +0ms
+  Eleventy:EleventyFiles /Users/desiraebeberniss/Documents/GitHub/eleventy-json-possums/.gitignore ignoring: !./typings +0ms
+  Eleventy:EleventyFiles /Users/desiraebeberniss/Documents/GitHub/eleventy-json-possums/.gitignore ignoring: !./*.tsbuildinfo +0ms
+  Eleventy:EleventyFiles /Users/desiraebeberniss/Documents/GitHub/eleventy-json-possums/.gitignore ignoring: !./.npm +0ms
+  Eleventy:EleventyFiles /Users/desiraebeberniss/Documents/GitHub/eleventy-json-possums/.gitignore ignoring: !./.eslintcache +0ms
+  Eleventy:EleventyFiles /Users/desiraebeberniss/Documents/GitHub/eleventy-json-possums/.gitignore ignoring: !./.rpt2_cache +0ms
+  Eleventy:EleventyFiles /Users/desiraebeberniss/Documents/GitHub/eleventy-json-possums/.gitignore ignoring: !./.rts2_cache_cjs +0ms
+  Eleventy:EleventyFiles /Users/desiraebeberniss/Documents/GitHub/eleventy-json-possums/.gitignore ignoring: !./.rts2_cache_es +0ms
+  Eleventy:EleventyFiles /Users/desiraebeberniss/Documents/GitHub/eleventy-json-possums/.gitignore ignoring: !./.rts2_cache_umd +0ms
+  Eleventy:EleventyFiles /Users/desiraebeberniss/Documents/GitHub/eleventy-json-possums/.gitignore ignoring: !./.node_repl_history +0ms
+  Eleventy:EleventyFiles /Users/desiraebeberniss/Documents/GitHub/eleventy-json-possums/.gitignore ignoring: !./*.tgz +0ms
+  Eleventy:EleventyFiles /Users/desiraebeberniss/Documents/GitHub/eleventy-json-possums/.gitignore ignoring: !./.yarn-integrity +0ms
+  Eleventy:EleventyFiles /Users/desiraebeberniss/Documents/GitHub/eleventy-json-possums/.gitignore ignoring: !./.env +0ms
+  Eleventy:EleventyFiles /Users/desiraebeberniss/Documents/GitHub/eleventy-json-possums/.gitignore ignoring: !./.env.test +0ms
+  Eleventy:EleventyFiles /Users/desiraebeberniss/Documents/GitHub/eleventy-json-possums/.gitignore ignoring: !./.cache +0ms
+  Eleventy:EleventyFiles /Users/desiraebeberniss/Documents/GitHub/eleventy-json-possums/.gitignore ignoring: !./.next +0ms
+  Eleventy:EleventyFiles /Users/desiraebeberniss/Documents/GitHub/eleventy-json-possums/.gitignore ignoring: !./.nuxt +0ms
+  Eleventy:EleventyFiles /Users/desiraebeberniss/Documents/GitHub/eleventy-json-possums/.gitignore ignoring: !./dist +0ms
+  Eleventy:EleventyFiles /Users/desiraebeberniss/Documents/GitHub/eleventy-json-possums/.gitignore ignoring: !./.cache +0ms
+  Eleventy:EleventyFiles /Users/desiraebeberniss/Documents/GitHub/eleventy-json-possums/.gitignore ignoring: !./.vuepress/dist +0ms
+  Eleventy:EleventyFiles /Users/desiraebeberniss/Documents/GitHub/eleventy-json-possums/.gitignore ignoring: !./.serverless +0ms
+  Eleventy:EleventyFiles /Users/desiraebeberniss/Documents/GitHub/eleventy-json-possums/.gitignore ignoring: !./.fusebox +0ms
+  Eleventy:EleventyFiles /Users/desiraebeberniss/Documents/GitHub/eleventy-json-possums/.gitignore ignoring: !./.dynamodb +0ms
+  Eleventy:EleventyFiles /Users/desiraebeberniss/Documents/GitHub/eleventy-json-possums/.gitignore ignoring: !./.tern-port +0ms
+  Eleventy:EleventyFiles /Users/desiraebeberniss/Documents/GitHub/eleventy-json-possums/.gitignore ignoring: !./production.env +0ms
+  Eleventy Directories:
+  Eleventy Input: .
+  Eleventy Data: _data
+  Eleventy Includes: _includes
+  Eleventy Layouts: undefined
+  Eleventy Output: _site
+  Eleventy Template Formats: liquid,ejs,md,hbs,mustache,haml,pug,njk,html,jstl,11ty.js
+  Eleventy Verbose Output: false +5ms
+  Eleventy:TemplateData Found global data file ./_data/possums.json and adding as: possums +0ms
+  Eleventy:EleventyFiles Searching for: [ './**/*.liquid', './**/*.ejs', './**/*.md', './**/*.hbs', './**/*.mustache', './**/*.haml', './**/*.pug', './**/*.njk', './**/*.html', './**/*.jstl', './**/*.11ty.js', './**/*.11ty.cjs', '!./logs', '!./*.log', '!./npm-debug.log*', '!./yarn-debug.log*', '!./yarn-error.log*', '!./lerna-debug.log*', '!./report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json', '!./pids', '!./*.pid', '!./*.seed', '!./*.pid.lock', '!./lib-cov', '!./coverage', '!./*.lcov', '!./.nyc_output', '!./.grunt', '!./bower_components', '!./.lock-wscript', '!./build/Release', '!./node_modules/**', '!./jspm_packages', '!./typings', '!./*.tsbuildinfo', '!./.npm', '!./.eslintcache', '!./.rpt2_cache', '!./.rts2_cache_cjs', '!./.rts2_cache_es', '!./.rts2_cache_umd', '!./.node_repl_history', '!./*.tgz', '!./.yarn-integrity', '!./.env', '!./.env.test', '!./.cache', '!./.next', '!./.nuxt', '!./dist', '!./.cache', '!./.vuepress/dist', '!./.serverless', '!./.fusebox', '!./.dynamodb', '!./.tern-port', '!./production.env', '!./_site/**', '!./_includes/**', '!./_data/**' ] +23ms
+  Eleventy:TemplateWriter Found: [ './index.njk' ] +0ms
+  Eleventy:TemplatePassthroughManager TemplatePassthrough copy started. +34ms
+  Eleventy:TemplatePassthroughManager `passthroughFileCopy` config paths: {} +0ms
+  Eleventy:TemplatePassthroughManager `passthroughFileCopy` config normalized paths: [] +0ms
+  Eleventy:TemplateData Using '.11tydata' to find data files. +9ms
+  Eleventy:TemplateData getLocalDataPaths('./index.njk'): [ './index.11tydata.js', './index.11tydata.cjs', './index.11tydata.json', './index.json' ] +0ms
+  Eleventy:TemplatePassthroughManager TemplatePassthrough copy finished. Current count: 0 +1ms
+  Eleventy:Template getMappedDate: using file created time for './index.njk' of 2020-11-16T04:06:46.387Z (from 1605499606387.5925) +0ms
+  Eleventy:TemplateWriter ./index.njk added to map. +22ms
+  Eleventy:TemplateMap Caching collections objects. +0ms
+  Eleventy:TemplateData Using '.11tydata' to find data files. +23ms
+  Eleventy:TemplateData getLocalDataPaths('./index.njk'): [ './index.11tydata.js', './index.11tydata.cjs', './index.11tydata.json', './index.json' ] +0ms
+  Eleventy:Template getMappedDate: using file created time for './index.njk' of 2020-11-16T04:06:46.387Z (from 1605499606387.5925) +2ms
+  Eleventy:Template First round of computed data for './index.njk' +1ms
+  Eleventy:ComputedData 'page.url' accesses [] variables +0ms
+  Eleventy:ComputedData 'page.outputPath' accesses [] variables +0ms
+  Eleventy:ComputedData Computed data order of execution: [ 'page.url', 'page.outputPath' ] +0ms
+  Eleventy:TemplateMap Collection: collections.all size: 1 +5ms
+  Eleventy:TemplateMap Collection: collections.all size: 1 +0ms
+  Eleventy:Template Second round of computed data for './index.njk' +2ms
+  Eleventy:ComputedData Computed data order of execution: [] +1ms
+  Eleventy:TemplateWriter Template map created. +11ms
+  Eleventy:Template Writing '_site/index.html' from './index.njk'. +6ms
+  Eleventy:Template _site/index.html written.. +1ms
+  Eleventy:Benchmark Benchmark (Aggregate): Searching the file system took 18ms (13.2%, called 2×, 8.9ms each) +0ms
+  Eleventy:Benchmark Benchmark (Aggregate): Template Render took 5ms (3.9%) +0ms
+  Eleventy:Benchmark Benchmark (Aggregate): Template Write took 1ms (0.5%) +0ms
+Wrote 1 file in 0.07 seconds (v0.11.1)
+  Eleventy Finished writing templates. +65ms
+  Eleventy 
+  Eleventy Getting frustrated? Have a suggestion/feature request/feedback?
+  Eleventy I want to hear it! Open an issue: https://github.com/11ty/eleventy/issues/new +0ms
+
+
+Start time: (2020-11-16 04:18:29 UTC) [treshold=1%]
+ #  module                                                                             time  %
+ 1  pretty-ms (node_modules/pretty-ms/index.js)                                         3ms  ▇ 1%
+ 2  chalk (node_modules/time-require/node_modules/chalk/index.js)                       7ms  ▇▇▇ 3%
+ 3  ./src/EleventyErrorHandler (node_module.../eleventy/src/EleventyErrorHandler.js)    6ms  ▇▇ 2%
+ 4  parse-filepath (node_modules/parse-filepath/index.js)                               4ms  ▇▇ 2%
+ 5  ./TemplatePath (node_modules/@11ty/eleventy/src/TemplatePath.js)                    5ms  ▇▇ 2%
+ 6  graceful-fs (node_modules/graceful-fs/graceful-fs.js)                               3ms  ▇ 1%
+ 7  ./fs (node_modules/fs-extra/lib/fs/index.js)                                        4ms  ▇▇ 2%
+ 8  ./copy-sync (node_modules/fs-extra/lib/copy-sync/copy-sync.js)                      4ms  ▇▇ 2%
+ 9  ./copy-sync (node_modules/fs-extra/lib/copy-sync/index.js)                          4ms  ▇▇ 2%
+10  ./ensure (node_modules/fs-extra/lib/ensure/index.js)                                4ms  ▇▇ 2%
+11  fs-extra (node_modules/fs-extra/lib/index.js)                                      22ms  ▇▇▇▇▇▇▇ 9%
+12  braces (node_modules/braces/index.js)                                               3ms  ▇ 1%
+13  picomatch (node_modules/picomatch/index.js)                                         3ms  ▇ 1%
+14  micromatch (node_modules/micromatch/index.js)                                       7ms  ▇▇▇ 3%
+15  ./pattern (node_modules/fast-glob/out/utils/pattern.js)                             8ms  ▇▇▇ 3%
+16  ../utils (node_modules/fast-glob/out/utils/index.js)                               10ms  ▇▇▇▇ 4%
+17  ./managers/tasks (node_modules/fast-glob/out/managers/tasks.js)                    12ms  ▇▇▇▇ 5%
+18  @nodelib/fs.scandir (node_modules/@nodelib/fs.scandir/out/index.js)                 3ms  ▇ 1%
+19  ../readers/async (node_modules/@nodelib/fs.walk/out/readers/async.js)               4ms  ▇▇ 2%
+20  ./providers/async (node_modules/@nodelib/fs.walk/out/providers/async.js)            4ms  ▇▇ 2%
+21  @nodelib/fs.walk (node_modules/@nodelib/fs.walk/out/index.js)                       7ms  ▇▇▇ 3%
+22  ../readers/stream (node_modules/fast-glob/out/readers/stream.js)                    9ms  ▇▇▇ 4%
+23  ./provider (node_modules/fast-glob/out/providers/provider.js)                       3ms  ▇ 1%
+24  ./providers/async (node_modules/fast-glob/out/providers/async.js)                  12ms  ▇▇▇▇ 5%
+25  fast-glob (node_modules/fast-glob/out/index.js)                                    25ms  ▇▇▇▇▇▇▇▇ 10%
+26  ./_getNative (node_modules/lodash/_getNative.js)                                    3ms  ▇ 1%
+27  ./_defineProperty (node_modules/lodash/_defineProperty.js)                          4ms  ▇▇ 2%
+28  ./_baseAssignValue (node_modules/lodash/_baseAssignValue.js)                        4ms  ▇▇ 2%
+29  ./_assignValue (node_modules/lodash/_assignValue.js)                                4ms  ▇▇ 2%
+30  ./_mapCacheClear (node_modules/lodash/_mapCacheClear.js)                            3ms  ▇ 1%
+31  ./_MapCache (node_modules/lodash/_MapCache.js)                                      5ms  ▇▇ 2%
+32  ./memoize (node_modules/lodash/memoize.js)                                          5ms  ▇▇ 2%
+33  ./_memoizeCapped (node_modules/lodash/_memoizeCapped.js)                            5ms  ▇▇ 2%
+34  ./_stringToPath (node_modules/lodash/_stringToPath.js)                              6ms  ▇▇ 2%
+35  ./_castPath (node_modules/lodash/_castPath.js)                                      7ms  ▇▇▇ 3%
+36  ./_baseSet (node_modules/lodash/_baseSet.js)                                       12ms  ▇▇▇▇ 5%
+37  lodash/set (node_modules/lodash/set.js)                                            13ms  ▇▇▇▇▇ 5%
+38  ./_baseUniq (node_modules/lodash/_baseUniq.js)                                      3ms  ▇ 1%
+39  lodash/uniq (node_modules/lodash/uniq.js)                                           3ms  ▇ 1%
+40  ./_baseMergeDeep (node_modules/lodash/_baseMergeDeep.js)                            6ms  ▇▇ 2%
+41  ./_baseMerge (node_modules/lodash/_baseMerge.js)                                    8ms  ▇▇▇ 3%
+42  lodash/merge (node_modules/lodash/merge.js)                                        11ms  ▇▇▇▇ 4%
+43  semver (node_modules/semver/index.js)                                              12ms  ▇▇▇▇ 5%
+44  luxon (node_modules/luxon/build/node/luxon.js)                                      3ms  ▇ 1%
+45  ./UserConfig (node_modules/@11ty/eleventy/src/UserConfig.js)                       18ms  ▇▇▇▇▇▇ 7%
+46  ./EleventyConfig (node_modules/@11ty/eleventy/src/EleventyConfig.js)               19ms  ▇▇▇▇▇▇ 7%
+47  ./TemplateConfig (node_modules/@11ty/eleventy/src/TemplateConfig.js)               30ms  ▇▇▇▇▇▇▇▇▇▇ 12%
+48  ./Config (node_modules/@11ty/eleventy/src/Config.js)                               42ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇ 16%
+49  ./TemplateEngineManager (node_modules/@...eleventy/src/TemplateEngineManager.js)   44ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 17%
+50  ./EleventyExtensionMap (node_modules/@1.../eleventy/src/EleventyExtensionMap.js)   44ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 17%
+51  ./TemplateRender (node_modules/@11ty/eleventy/src/TemplateRender.js)               44ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 17%
+52  ./TemplateData (node_modules/@11ty/eleventy/src/TemplateData.js)                  110ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 43%
+53  ./json (node_modules/js-yaml/lib/js-yaml/schema/json.js)                            3ms  ▇ 1%
+54  ./core (node_modules/js-yaml/lib/js-yaml/schema/core.js)                            3ms  ▇ 1%
+55  ./schema/default_safe (node_modules/js-yaml/lib/js-yaml/schema/default_safe.js)     7ms  ▇▇▇ 3%
+56  esprima (node_modules/esprima/dist/esprima.js)                                      6ms  ▇▇ 2%
+57  ../type/js/function (node_modules/js-yaml/lib/js-yaml/type/js/function.js)          6ms  ▇▇ 2%
+58  ./schema/default_full (node_modules/js-yaml/lib/js-yaml/schema/default_full.js)     7ms  ▇▇▇ 3%
+59  ./js-yaml/loader (node_modules/js-yaml/lib/js-yaml/loader.js)                      16ms  ▇▇▇▇▇ 6%
+60  ./lib/js-yaml.js (node_modules/js-yaml/lib/js-yaml.js)                             17ms  ▇▇▇▇▇▇ 7%
+61  js-yaml (node_modules/js-yaml/index.js)                                            17ms  ▇▇▇▇▇▇ 7%
+62  ./engines (node_modules/gray-matter/lib/engines.js)                                17ms  ▇▇▇▇▇▇ 7%
+63  ./lib/defaults (node_modules/gray-matter/lib/defaults.js)                          19ms  ▇▇▇▇▇▇ 7%
+64  gray-matter (node_modules/gray-matter/index.js)                                    22ms  ▇▇▇▇▇▇▇ 9%
+65  ./TemplateContent (node_modules/@11ty/eleventy/src/TemplateContent.js)             22ms  ▇▇▇▇▇▇▇ 9%
+66  ./Template (node_modules/@11ty/eleventy/src/Template.js)                           29ms  ▇▇▇▇▇▇▇▇▇ 11%
+67  multimatch (node_modules/multimatch/index.js)                                       3ms  ▇ 1%
+68  ./TemplateCollection (node_modules/@11ty/eleventy/src/TemplateCollection.js)        5ms  ▇▇ 2%
+69  ./TemplateMap (node_modules/@11ty/eleventy/src/TemplateMap.js)                      5ms  ▇▇ 2%
+70  glob (node_modules/glob/glob.js)                                                    4ms  ▇▇ 2%
+71  globby (node_modules/globby/index.js)                                               6ms  ▇▇ 2%
+72  del (node_modules/del/index.js)                                                     8ms  ▇▇▇ 3%
+73  ./lib/copy (node_modules/recursive-copy/lib/copy.js)                               13ms  ▇▇▇▇▇ 5%
+74  recursive-copy (node_modules/recursive-copy/index.js)                              14ms  ▇▇▇▇▇ 5%
+75  ./TemplatePassthrough (node_modules/@11ty/eleventy/src/TemplatePassthrough.js)     14ms  ▇▇▇▇▇ 5%
+76  ./TemplatePassthroughManager (node_modu...nty/src/TemplatePassthroughManager.js)   14ms  ▇▇▇▇▇ 5%
+77  ./EleventyFiles (node_modules/@11ty/eleventy/src/EleventyFiles.js)                 15ms  ▇▇▇▇▇ 6%
+78  ./TemplateWriter (node_modules/@11ty/eleventy/src/TemplateWriter.js)               49ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 19%
+79  ./src/Eleventy (node_modules/@11ty/eleventy/src/Eleventy.js)                      166ms  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 65%
+80  liquidjs (node_modules/liquidjs/dist/liquid.common.js)                              3ms  ▇ 1%
+81  ./Engines/Liquid (node_modules/@11ty/eleventy/src/Engines/Liquid.js)                5ms  ▇▇ 2%
+82  ./nodes (node_modules/nunjucks/src/nodes.js)                                        3ms  ▇ 1%
+83  ./parser (node_modules/nunjucks/src/parser.js)                                      4ms  ▇▇ 2%
+84  ./compiler (node_modules/nunjucks/src/compiler.js)                                  5ms  ▇▇ 2%
+85  ./node-loaders (node_modules/nunjucks/src/node-loaders.js)                          3ms  ▇ 1%
+86  ./loaders (node_modules/nunjucks/src/loaders.js)                                    3ms  ▇ 1%
+87  ./src/environment (node_modules/nunjucks/src/environment.js)                       13ms  ▇▇▇▇▇ 5%
+88  nunjucks (node_modules/nunjucks/index.js)                                          15ms  ▇▇▇▇▇ 6%
+89  ./Engines/Nunjucks (node_modules/@11ty/eleventy/src/Engines/Nunjucks.js)           16ms  ▇▇▇▇▇ 6%
+Total require(): 1086
+Total time: 257ms

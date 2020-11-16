@@ -1,0 +1,16 @@
+---
+title: Possums list
+pagination:
+  data: possums
+  size: 12
+---
+
+<p>List of possums</p>
+
+{% for possum in possums %}
+  {% if loop.first %}<ul>{% endif %}
+    <li>
+      <a href="/possums/{{ possum.name | slug }}">{{ possum.name }}</a>
+    </li>
+  {% if loop.last %}</ul>{% endif %}
+{% endfor %}
